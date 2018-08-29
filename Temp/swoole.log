@@ -1,0 +1,209 @@
+[2018-08-14 04:10:43 #3326.2]	NOTICE	Server is shutdown now.
+[2018-08-14 04:10:44 *3345.7]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-14 04:10:44 *3341.3]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-14 04:10:45 *3339.1]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-14 04:10:45 *3338.0]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-14 04:10:46 *3342.4]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-14 19:20:58 *2293.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 182 byte failed, because connection[fd=2] is closed.
+[2018-08-14 19:20:58 *2293.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 173 byte failed, because connection[fd=2] is closed.
+[2018-08-14 19:20:58 *2292.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 182 byte failed, because connection[fd=1] is closed.
+[2018-08-14 19:20:58 *2292.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 173 byte failed, because connection[fd=1] is closed.
+[2018-08-14 19:21:04 *2294.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 182 byte failed, because connection[fd=3] is closed.
+[2018-08-14 19:21:04 *2294.5]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 173 byte failed, because connection[fd=3] is closed.
+[2018-08-14 19:21:04 *2295.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 182 byte failed, because connection[fd=4] is closed.
+[2018-08-14 19:21:04 *2295.6]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 173 byte failed, because connection[fd=4] is closed.
+[2018-08-14 22:53:57 *2311.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 180 byte failed, because connection[fd=2] is closed.
+[2018-08-14 22:53:57 *2311.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 171 byte failed, because connection[fd=2] is closed.
+[2018-08-14 22:53:57 *2310.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 180 byte failed, because connection[fd=1] is closed.
+[2018-08-14 22:53:57 *2310.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 171 byte failed, because connection[fd=1] is closed.
+[2018-08-14 22:54:31 *2311.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 182 byte failed, because connection[fd=6] is closed.
+[2018-08-14 22:54:31 *2311.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 173 byte failed, because connection[fd=6] is closed.
+[2018-08-14 22:54:31 *2310.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 182 byte failed, because connection[fd=5] is closed.
+[2018-08-14 22:54:31 *2310.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 173 byte failed, because connection[fd=5] is closed.
+[2018-08-14 23:00:57 *2492.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 182 byte failed, because connection[fd=1] is closed.
+[2018-08-14 23:00:57 *2492.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 173 byte failed, because connection[fd=1] is closed.
+[2018-08-14 23:12:41 *2995.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(1)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-14 23:12:41 $2981.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-08-14 23:30:27 *3656.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(1)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-14 23:30:27 $3642.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-08-14 23:42:42 *3969.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(4)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-14 23:42:42 $3953.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-08-14 23:55:51 *4101.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(18)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-14 23:55:51 $4084.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-08-14 23:57:49 *4102.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(21)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-14 23:57:49 $4084.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2018-08-14 23:59:25 *4095.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(24)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-14 23:59:25 $4084.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-08-15 00:00:09 *4096.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(28)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:00:09 $4084.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-08-15 00:01:01 *4097.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(33)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:01:01 $4084.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-08-15 00:01:46 *4098.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(39)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:01:46 $4084.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-08-15 00:02:16 *4100.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(38)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:02:16 $4084.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-08-15 00:04:37 *4221.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(4)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-15 00:04:37 $4205.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-08-15 00:07:01 *4223.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(13)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:07:01 $4205.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2018-08-15 00:07:46 *4216.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(16)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:07:46 $4205.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-08-15 00:08:40 *4217.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(18)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:08:40 $4205.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-08-15 00:10:02 *4218.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(20)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:10:02 $4205.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-08-15 00:10:11 *4219.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(23)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:10:11 $4205.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-08-15 00:10:11 *4222.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(22)
+#2 /swoole/vendor/easyswoole/easyswoole/src/C
+[2018-08-15 00:10:11 $4205.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-08-15 00:10:47 *4465.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(2)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-15 00:10:47 $4450.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-08-15 00:11:32 *4466.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(4)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-15 00:11:32 *4464.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(3)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-15 00:11:32 $4450.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-08-15 00:11:32 $4450.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-08-15 00:12:09 *4504.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(1)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-15 00:12:09 $4490.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-08-15 00:12:34 *4534.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(1)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-15 00:12:34 $4520.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-08-15 00:13:37 *4566.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(2)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-15 00:13:37 $4551.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-08-15 00:13:41 *4565.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(1)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-15 00:13:41 $4551.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-08-15 00:13:50 *4568.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught TypeError: Argument 2 passed to App\Socket\Logic\Room::setUserFdList() must be of the type array, null given, called in /swoole/App/Socket/Logic/Room.php on line 81 and defined in /swoole/App/Socket/Logic/Room.php:50
+Stack trace:
+#0 /swoole/App/Socket/Logic/Room.php(81): App\Socket\Logic\Room::setUserFdList(0, NULL)
+#1 /swoole/App/Socket/Logic/Room.php(283): App\Socket\Logic\Room::deleteUserIdFdMapByFd(5)
+#2 /swoole/vendor/easyswoole/easyswoole/src/Co
+[2018-08-15 00:13:50 $4551.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-08-15 00:54:27 #4830.2]	NOTICE	Server is shutdown now.
+[2018-08-15 00:54:27 *4845.3]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-15 00:54:29 *4849.7]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-15 00:54:29 *4846.4]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-15 00:54:29 *4847.5]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 10:02:12 *5462.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 180 byte failed, because connection[fd=6] is closed.
+[2018-08-16 10:02:12 *5462.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 171 byte failed, because connection[fd=6] is closed.
+[2018-08-16 10:02:12 *5463.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 180 byte failed, because connection[fd=7] is closed.
+[2018-08-16 10:02:12 *5463.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 171 byte failed, because connection[fd=7] is closed.
+[2018-08-16 10:03:05 *5462.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 180 byte failed, because connection[fd=8] is closed.
+[2018-08-16 10:03:05 *5462.3]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 171 byte failed, because connection[fd=8] is closed.
+[2018-08-16 10:03:05 *5463.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 180 byte failed, because connection[fd=9] is closed.
+[2018-08-16 10:03:05 *5463.4]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 171 byte failed, because connection[fd=9] is closed.
+onClose--5
+onClose--4
+onopen--8
+onClose--2
+onClose--3
+[2018-08-16 10:42:06 #6854.1]	NOTICE	Server is shutdown now.
+[2018-08-16 18:36:59 *11767.7]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 18:36:59 *11766.6]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 18:36:59 *11765.5]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 18:36:59 *11764.4]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 18:36:59 *11763.3]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 18:36:59 *11761.1]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 18:36:59 *11760.0]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 18:36:59 $11750.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-08-16 18:36:59 $11750.0]	WARNING	swManager_check_exit_status: worker#16 abnormal exit, status=0, signal=1
+[2018-08-16 18:36:59 #11749.1]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 18:36:59 *11762.2]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2018-08-16 18:37:17 *11762.2]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-08-16 20:03:36 *11764.4]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-08-17 09:57:31 *11765.5]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-08-17 09:57:31 *18280.5]	NOTICE	zm_deactivate_swoole (ERROR 9003): worker process is terminated by exit()/die().
+[2018-08-17 09:57:31 *18281.5]	NOTICE	swFactoryProcess_end (ERROR 1003): The connection[4] is closing.
